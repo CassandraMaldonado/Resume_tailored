@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASSANDRA M. SULLIVAN - Resume</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.8em;
+            font-weight: 300;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        .content { padding: 40px; }
+        .section { margin-bottom: 40px; }
+        .section h2 {
+            color: #667eea;
+            font-size: 1.4em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+            font-weight: 600;
+        }
+        .summary {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #555;
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        .experience-item, .education-item, .project-item {
+            margin-bottom: 30px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #28a745;
+        }
+        .job-title, .degree, .project-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .company, .school {
+            font-weight: 600;
+            color: #28a745;
+            margin-bottom: 5px;
+        }
+        .duration {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+        .achievements {
+            list-style: none;
+            margin-top: 15px;
+        }
+        .achievements li {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        .achievements li:before {
+            content: "▶";
+            color: #28a745;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        .skill-category {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        .category-title {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .skill-tag {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+        .project-description {
+            margin: 15px 0;
+            line-height: 1.7;
+        }
+        .technologies {
+            margin-top: 12px;
+        }
+        .tech-label {
+            font-weight: 600;
+            color: #667eea;
+        }
+        .tech-list {
+            color: #666;
+        }
+        @media print {
+            body { background: white; padding: 0; }
+            .container { box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>CASSANDRA M. SULLIVAN</h1>
+            <p>(415) 286-1896 | caseymr96@gmail.com</p>
+            <div class="links">
+                <a href="https://github.com/CassandraMaldonado" target="_blank">🔗 GitHub</a>
+                <a href="https://www.linkedin.com/in/cassandra-msullivan/" target="_blank">🔗 LinkedIn</a>
+            </div>
+        </header>
+
+        <div class="content">
+            <section class="section">
+                <h2>Professional Summary</h2>
+                <div class="summary">Data scientist with proven expertise in machine learning and generative AI, skilled in developing automated evaluation pipelines and fine-tuning LLMs. Brings robust experience in Python, ML/NLP libraries, and A/B testing to optimize model performance at scale. Recognized for translating complex datasets into actionable, real-world insights and integrating advanced ML techniques within quality assurance frameworks.</div>
+            </section>
+            <section class="section">
+                <h2>Professional Experience</h2>
+                <div class="experience-item">
+                    <div class="job-title">Machine Learning & Data Science Economist</div>
+                    <div class="company">Mexico Central Bank</div>
+                    <div class="duration">May 2022 - Sep 2024</div><ul class="achievements"><li>Developed forecasting models (XGBoost, ARIMA, Prophet) that improved regional economic predictions by 15%.</li><li>Applied causal inference (DiD, matching) and A/B testing to evaluate the impact of policy interventions.</li><li>Conducted incrementality analysis to isolate true effects of programs on regional growth.</li><li>Automated SQL pipelines while integrating generative AI tools to streamline data evaluation processes.</li><li>Presented findings in policy briefings and national economic reports.</li></ul></div>
+                <div class="experience-item">
+                    <div class="job-title">Consultant</div>
+                    <div class="company">Universidad Autónoma de Nuevo León (University-Industry Relations Office)</div>
+                    <div class="duration">Sep 2021 - May 2022</div><ul class="achievements"><li>Designed and deployed Python-based KPI dashboards to track cross-departmental performance, contributing to $500K MXN in operational savings.</li><li>Leveraged A/B testing and uplift modeling in data analysis to isolate the incremental effects of pricing strategies on customer conversion.</li></ul></div>
+                <div class="experience-item">
+                    <div class="job-title">Financial Planning Analyst</div>
+                    <div class="company">Secretary of Finance and General Treasury of Nuevo León (State Gov. Office)</div>
+                    <div class="duration">Jun 2020 - Aug 2021</div><ul class="achievements"><li>Developed R-based forecasting models that improved budget accuracy by 23%.</li><li>Automated SQL pipelines to streamline debt tracking, reducing servicing costs by 0.6%.</li><li>Utilized causal inference (synthetic controls, quasi-experiments) to evaluate the impact of fiscal reforms.</li><li>Facilitated evidence-based decision-making through real-time financial reporting.</li></ul></div></section>
+            <section class="section">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <div class="degree">Master of Science, Applied Data Science</div>
+                    <div class="school">University of Chicago, Physical Sciences Division</div>
+                    <div class="duration">Dec 2025</div><div style="margin-top: 10px; color: #666;">GPA: Magna Cum Laude • Data Science Institute Merit Scholarship</div></div>
+                <div class="education-item">
+                    <div class="degree">Bachelor of Arts, Economics</div>
+                    <div class="school">Instituto Tecnológico y de Estudios Superiores de Monterrey</div>
+                    <div class="duration">Dec 2019</div><div style="margin-top: 10px; color: #666;">GPA: Magna Cum Laude</div></div></section>
+            <section class="section">
+                <h2>Key Projects</h2>
+                <div class="project-item">
+                    <div class="project-title">Healthcare LLM (Inference Analytics)</div><div class="duration">Mar 2025 - Present</div><div class="project-description">Collaborating on a healthcare-specialized LLM fine-tuned with Reinforcement Learning from EHRs and clinical notes. Focused on prompt engineering, dataset preparation, and reward modeling.</div><div class="technologies">
+                            <span class="tech-label">Technologies:</span>
+                            <span class="tech-list">Python, Reinforcement Learning, LLM, EHRs</span>
+                        </div></div>
+                <div class="project-item">
+                    <div class="project-title">AirfareCast: Airline Fare Forecasting</div><div class="duration">Mar 2025</div><div class="project-description">Built machine learning models (XGBoost, Random Forest) to predict flight prices. Deployed an interactive Streamlit dashboard to visualize fare trends and optimize booking decisions.</div><div class="technologies">
+                            <span class="tech-label">Technologies:</span>
+                            <span class="tech-list">Python, XGBoost, Random Forest, Streamlit</span>
+                        </div></div>
+                <div class="project-item">
+                    <div class="project-title">Conditional VAE for Age-Controlled Face Generation</div><div class="duration">Jan 2025</div><div class="project-description">Designed a Conditional Variational Autoencoder (CVAE) to simulate age-based facial transformations. Implemented data preprocessing and achieved latent space disentanglement.</div><div class="technologies">
+                            <span class="tech-label">Technologies:</span>
+                            <span class="tech-list">Python, CVAE, TensorFlow, Computer Vision</span>
+                        </div></div>
+                <div class="project-item">
+                    <div class="project-title">Customer Behavior Analysis Pipeline</div><div class="duration">Nov 2024</div><div class="project-description">Built a SQL-Python pipeline to analyze 6.75M+ e-commerce records using A/B testing and time series analysis.</div><div class="technologies">
+                            <span class="tech-label">Technologies:</span>
+                            <span class="tech-list">Python, SQL, A/B Testing, Time Series</span>
+                        </div></div>
+                <div class="project-item">
+                    <div class="project-title">John List Voltage Research Program</div><div class="duration">Sep 2024 - Present</div><div class="project-description">Used Bayesian modeling and causal inference to quantify real-world treatment effects in behavioral experiments, evaluated incremental outcomes from randomized interventions.</div><div class="technologies">
+                            <span class="tech-label">Technologies:</span>
+                            <span class="tech-list">Python, Bayesian Modeling, Causal Inference, R</span>
+                        </div></div></section>
+            <section class="section">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="category-title">Programming & Scripting</div>
+                        <div class="skill-list"><span class="skill-tag">Time Series Forecasting</span><span class="skill-tag">Classification</span><span class="skill-tag">Streamlit</span><span class="skill-tag">Matplotlib</span><span class="skill-tag">Git</span><span class="skill-tag">STATA</span><span class="skill-tag">Generative AI</span><span class="skill-tag">Pandas</span><span class="skill-tag">Deep Learning</span><span class="skill-tag">Regression</span><span class="skill-tag">NumPy</span><span class="skill-tag">Bayesian Inference</span><span class="skill-tag">Jupyter</span><span class="skill-tag">Scikit-Learn</span><span class="skill-tag">Causal Inference</span><span class="skill-tag">Python</span><span class="skill-tag">PyTorch</span><span class="skill-tag">TensorFlow</span><span class="skill-tag">VAEs</span><span class="skill-tag">Random Forest</span><span class="skill-tag">Machine Learning</span><span class="skill-tag">SQL</span></div></div>
+                    <div class="skill-category">
+                        <div class="category-title">Machine Learning & AI</div>
+                        <div class="skill-list"><span class="skill-tag">LLMs</span><span class="skill-tag">NLP</span><span class="skill-tag">XGBoost</span></div></div>
+                    <div class="skill-category">
+                        <div class="category-title">Data Analysis & Visualization</div>
+                        <div class="skill-list"><span class="skill-tag">Tableau</span></div></div>
+                    <div class="skill-category">
+                        <div class="category-title">Statistical Methods</div>
+                        <div class="skill-list"><span class="skill-tag">A/B Testing</span><span class="skill-tag">Statistics</span></div></div></div></section>
+        </div>
+    </div>
+</body>
+</html>

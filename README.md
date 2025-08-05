@@ -1,14 +1,10 @@
-# 🎯 Agentic Workflow for Resume Tailoring: Apple Ads – Data Scientist Role
+# 📄 Agentic Workflow for Data Science Resume Tailoring
 
-## 📌 Overview
+## Overview
 
-This project applies a structured, agentic workflow to reshape a resume and interview prep strategy for the **Data Scientist, Research Analytics** position at **Apple Ads**.
+This project applies a structured, agentic workflow to reshape a resume and interview prep strategy for Data Scientist positions.
 
-The process mirrors a real-world data science pipeline: from data ingestion (JD + resume), through matching and transformation (resume tailoring), to evaluation (diff comparison), and delivery (HTML output and talking points).
-
----
-
-## 🚀 Workflow Steps
+## Workflow Steps
 
 ### 1. Job Description Parsing
 Key role requirements from Apple’s JD were extracted, including:

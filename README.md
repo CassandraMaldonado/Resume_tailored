@@ -13,9 +13,9 @@ Key role requirements from the job description are extracted, including:
 - Methods: A/B testing, causal inference, experiment design and predictive modeling.
 - Qualifications: Master's or PhD in a quantitative field and years of experience.
 
-### 2. Resume Ingestion & Evaluation
-- Loaded the **original resume** (`.pdf`) using `PyMuPDF` and the **tailored version** (`.html`) via `BeautifulSoup`.
-- Identified alignment and gaps between candidate’s background and job requirements.
+### 2. Resume Evaluation
+- Load the original resume (`.pdf`).
+- Identifies alignment and gaps between the candidate’s background and the job requirements.
 
 ### 3. Resume Reshaping
 - Rewrote professional summary to better reflect ML experimentation, LLM pipelines, and business impact.

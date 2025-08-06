@@ -2,16 +2,16 @@
 
 ## Overview
 
-This project applies a structured, agentic workflow to reshape a resume and interview prep strategy for Data Scientist positions.
+This project applies an agentic workflow to reshape a resume and interview prep strategy for Data Scientist positions.
 
 ## Workflow Steps
 
 ### 1. Job Description Parsing
-Key role requirements from Apple’s JD were extracted, including:
+Key role requirements from the job description are extracted, including:
 
-- **Skills & Tools**: Python, SQL, Pandas, Tableau, R, Spark
-- **Methods**: A/B testing, causal inference, experiment design, predictive modeling
-- **Qualifications**: Master's or PhD in a quantitative field, 3+ years of experience
+- Skills & Tools: Python, SQL, Pandas, Tableau, R, Spark.
+- Methods: A/B testing, causal inference, experiment design, predictive modeling.
+- Qualifications: Master's or PhD in a quantitative field, years of experience.
 
 ### 2. Resume Ingestion & Evaluation
 - Loaded the **original resume** (`.pdf`) using `PyMuPDF` and the **tailored version** (`.html`) via `BeautifulSoup`.

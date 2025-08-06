@@ -9,7 +9,7 @@ This project applies an agentic workflow to reshape a resume and interview prep 
 ### 1. Job Description Parsing
 Key role requirements from the job description are extracted, including:
 
-- Skills & Tools: Python, SQL, Pandas, Tableau, R, Spark.
+- Skills & Tools: Python, SQL, Pandas, Tableau, R, Spark, etc.
 - Methods: A/B testing, causal inference, experiment design and predictive modeling.
 - Qualifications: Master's or PhD in a quantitative field and years of experience.
 

@@ -23,7 +23,7 @@ Key role requirements from the job description are extracted, including:
 - Groups skills into ATS friendly categories using a tag-based visual design.
 
 ### 4. Resume Rewriting & Export
-- Final resume rendered as a visually clean, responsive `.html` document using CSS styling for readability and design consistency.
+- Final resume rendered as a visually clean, responsive `.html` document for readability and design consistency.
 
 ### 5. Diff-Based Comparison
 - `difflib` was used to compare the original and tailored resume line-by-line, highlighting additions, deletions, and edits.

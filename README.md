@@ -9,12 +9,12 @@ This project applies an agentic workflow to reshape a resume and interview prep 
 ### 1. Job Description Parsing
 Key role requirements from the job description are extracted, including:
 
-- Skills & Tools: Python, SQL, Pandas, Tableau, R, Spark, etc.
-- Methods: A/B testing, causal inference, experiment design and predictive modeling.
-- Qualifications: Master's or PhD in a quantitative field and years of experience.
+- _Skills & Tools:_ Python, SQL, Pandas, Tableau, R, Spark, etc.
+- _Methods:_ A/B testing, causal inference, experiment design and predictive modeling.
+- _Qualifications:_ Master's or PhD in a quantitative field and years of experience.
 
 ### 2. Resume Evaluation
-- Load the original resume (`.pdf`).
+- Load the original resume in (`.pdf`).
 - Identifies alignment and gaps between the candidate’s background and the job requirements.
 
 ### 3. Resume Reshaping

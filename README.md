@@ -37,17 +37,15 @@ Key role requirements from the job description are extracted, including:
 
 ---
 
-## ✅ Deliverables
+## Deliverables
 
 | File | Description |
 |------|-------------|
-| `Tailored_Resume_CM.ipynb` | The main Colab/Notebook with the agentic workflow |
-| `Cassandra_Sullivan_DataScience.pdf` | Original resume (baseline for comparison) |
-| `datascience_resume_20250805_225420.html` | Tailored resume optimized for Apple Ads role |
-| `resume_diff.txt` | Unified diff comparison of original vs tailored resume |
-| `README.md` | This file: explanation of process and files |
-| `talking_points.md` | [Pending] Interview preparation points tied to JD |
-| ✅ Embedded in notebook | Summary of Resume Changes (markdown cell)
+| `Tailored_Resume_CM.ipynb` | The main Notebook with the agentic workflow. |
+| `Cassandra_Sullivan_DataScience.pdf` | Original resume. |
+| `datascience_resume_20250805_225420.html` | Tailored resume optimized for Data science roles. |
+| `resume_diff.txt` | Unified diff comparison of the original vs the tailored resume. |
+| `talking_points.md` | Interview preparation points tied to the job description. |
 
 ---
 

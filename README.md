@@ -49,8 +49,6 @@ Key role requirements from the job description are extracted, including:
 
 ---
 
-## 🧠 Purpose
+## Purpose
 
-This project demonstrates how data science principles — such as semantic matching, pipeline design, feature engineering (resume content), and output validation — can be applied to the job search process. It encourages intentional, optimized self-representation based on data and strategy rather than guesswork.
-
-The approach mirrors what a data scientist might do for customer targeting or modeling: align the product (you) with market demand (the job), optimize, and evaluate the result.
+This project demonstrates how data science principles such as semantic matching, pipeline design, feature engineering, and output validation can be applied to the job search process. It encourages intentional, optimized self-representation based on data and strategy rather than guesswork.

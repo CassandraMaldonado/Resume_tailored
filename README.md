@@ -33,7 +33,7 @@ Key role requirements from the job description are extracted, including:
 - A full markdown summary of changes is included in the notebook, explaining what changed and why.
 
 ### 7. Interview Talking Points
-- [✅ Placeholder] A set of 5–7 talking points were (or will be) generated to prepare for a recruiter screen or first-round interview — focusing on LLM, experimentation, business alignment, and analytics communication.
+- A set of 5–7 talking points will be generated to prepare for a recruiter screen or a first-round interview focusing on LLM, experimentation, business alignment and analytics.
 
 ---
 

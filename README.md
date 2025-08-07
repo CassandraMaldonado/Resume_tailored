@@ -26,11 +26,11 @@ Key role requirements from the job description are extracted, including:
 - Final resume rendered as a visually clean, responsive `.html` document for readability and design consistency.
 
 ### 5. Diff-Based Comparison
-- `difflib` was used to compare the original and tailored resume line-by-line, highlighting additions, deletions, and edits.
-- Output saved as `resume_diff.txt` for review.
+- `difflib` is use to compare the original and tailored resume line-by-line, highlighting additions, deletions and edits.
+- The output is saved as `resume_diff.txt` for review.
 
 ### 6. Summary of Resume Changes
-- A full markdown summary of changes was included in the notebook, explaining what changed and why.
+- A full markdown summary of changes is included in the notebook, explaining what changed and why.
 
 ### 7. Interview Talking Points
 - [✅ Placeholder] A set of 5–7 talking points were (or will be) generated to prepare for a recruiter screen or first-round interview — focusing on LLM, experimentation, business alignment, and analytics communication.

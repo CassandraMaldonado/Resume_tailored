@@ -18,9 +18,9 @@ Key role requirements from the job description are extracted, including:
 - Identifies alignment and gaps between the candidate’s background and the job requirements.
 
 ### 3. Resume Reshaping
-- Rewrote professional summary to better reflect ML experimentation, LLM pipelines, and business impact.
-- Reorganized experience and added clearer, quantified outcomes.
-- Grouped skills into ATS-friendly categories using a tag-based visual design.
+- Rewrites the professional summary to better reflect ML experimentation, LLM pipelines and business impact.
+- Reorganizes experience and adds clearer, quantified outcomes.
+- Groups skills into ATS friendly categories using a tag-based visual design.
 
 ### 4. Resume Rewriting & Export
 - Final resume rendered as a visually clean, responsive `.html` document using CSS styling for readability and design consistency.

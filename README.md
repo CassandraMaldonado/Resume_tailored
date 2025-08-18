@@ -24,28 +24,6 @@ I’m a data science student, so I designed it to be simple, reproducible and ea
 
 Outputs are returned as structured JSON + a Markdown resume body.
 
----
-
-## Quickstart
-
-```bash
-# 1) Install
-pip install "crewai>=0.103.0" crewai-tools litellm pydantic python-dotenv pypdf docx2txt
-
-# 2) Choose an LLM (via LiteLLM routing)
-export MODEL="gpt-4o-mini"      # or anthropic/claude-3-5-sonnet, gemini/gemini-1.5-pro, groq/llama3-70b-8192, etc.
-export OPENAI_API_KEY=sk-...
-# (use ANTHROPIC_API_KEY / GOOGLE_API_KEY / GROQ_API_KEY / etc. for other providers)
-
-# 3) Run (resume from file + job posting from file or inline text)
-python mckinsey_interview_flow.py \
-  --resume ~/Documents/My_Resume.pdf \
-  --job job_posting.txt
-# or
-python mckinsey_interview_flow.py \
-  --resume ~/Documents/My_Resume.docx \
-  --job-text "Paste the full job description here..."
-```
 
 **Where do I put my resume?**
 

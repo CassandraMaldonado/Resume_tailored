@@ -7,7 +7,7 @@ I was manually reading job posts, matching them to my skills, editing my resume 
 - It extracts the real requirements from a job posting url.
 - Maps them to my skills and experience.
 - Proposes a resume strategy with special keywords.
-- Generates an ATS‑friendly resume draft.
+- Generates an ATS‑friendly updated resume markdown.
 * Produce **talking points + 2–3 STAR stories** for the intro call
 
 I’m a data science student, so I designed it to be simple, reproducible, and easy to swap LLM providers.

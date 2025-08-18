@@ -8,11 +8,9 @@ I was manually reading job posts, matching them to my skills, editing my resume 
 - Maps them to my skills and experience.
 - Proposes a resume strategy with special keywords.
 - Generates an ATS‑friendly updated resume markdown.
-* Produce **talking points + 2–3 STAR stories** for the intro call
+- Produces talking points and 2–3 experience stories for the intro call.
 
-I’m a data science student, so I designed it to be simple, reproducible, and easy to swap LLM providers.
-
----
+I’m a data science student, so I designed it to be simple, reproducible and easy to swap LLM providers.
 
 ## What it does (end‑to‑end flow)
 

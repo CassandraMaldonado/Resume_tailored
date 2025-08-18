@@ -1,4 +1,4 @@
-# Agentic Resume & Interview Prep Flow (student project)
+# Agentic Resume & Interview Prep Flow
 
 > A small weekend project where I use CrewAI “flows” + LLM agents to help me tailor my resume to a specific job posting and prep talking points for the first interview. Not homework — just me trying to speed up job applications and learn agents in the process.
 

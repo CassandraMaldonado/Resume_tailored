@@ -12,9 +12,9 @@ I was manually reading job posts, matching them to my skills, editing my resume 
 
 I’m a data science student, so I designed it to be simple, reproducible and easy to swap LLM providers.
 
-## What it does (end‑to‑end flow)
+## What it does
 
-**Flow stages** (CrewAI Flows):
+** CrewAI Flow stages:
 
 1. **Learn job requirements** → parse a job description and normalize skills/responsibilities.
 2. **Match to my profile** → rate coverage, surface gaps, propose quick wins.

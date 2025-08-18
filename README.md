@@ -2,12 +2,12 @@
 
 A small weekend project where I use CrewAI flows and LLM agents to help me tailor my resume to a specific job posting and prep talking points for my first interview. Just me trying to speed up job applications and learn agents in the process.
 
-I was manually: reading job posts, matching them to my skills, editing my resume and then jotting quick interview talking points. This repo automates the boring parts:
+I was manually reading job posts, matching them to my skills, editing my resume and then jotting quick interview talking points. This repo automates the boring parts:
 
-* Extract the **real** requirements from a posting
-* Map them to **my skills/experience**
-* Propose a **resume strategy** (order, bullets, keywords)
-* Generate an **ATS‑friendly resume draft** (Markdown)
+- It extracts the real requirements from a job posting url.
+- Maps them to my skills and experience.
+- Proposes a resume strategy with special keywords.
+- Generates an ATS‑friendly resume draft.
 * Produce **talking points + 2–3 STAR stories** for the intro call
 
 I’m a data science student, so I designed it to be simple, reproducible, and easy to swap LLM providers.

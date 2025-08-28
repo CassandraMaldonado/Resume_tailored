@@ -12,18 +12,17 @@ I was manually reading job posts, matching them to my skills, editing my resume 
 
 I’m a data science student, so I designed it to be simple, reproducible and easy to swap LLM providers.
 
-## What it does
+## What I did
 
 **CrewAI Flow stages:**
 
-1. **Learn job requirements** → parse a job description and normalize skills/responsibilities.
-2. **Match to my profile** → rate coverage, surface gaps, propose quick wins.
-3. **Resume strategy** → section order, keywords, bullets to rewrite.
-4. **Write tailored resume** → ATS‑friendly Markdown output.
-5. **Interview prep** → concise talking points + STAR stories I can actually say.
+1. **Learn job requirements** -> parse a job description and normalize skills/responsibilities.
+2. **Match to my profile** -> rate coverage, surface gaps, propose quick wins.
+3. **Resume strategy** -> section order, keywords, bullets to rewrite.
+4. **Write tailored resume** -> ATS‑friendly Markdown output.
+5. **Interview prep** -> concise talking points + STAR stories I can actually say.
 
 Outputs are returned as structured JSON + a Markdown resume body.
-
 
 **Where do I put my resume?**
 

@@ -24,10 +24,9 @@ I’m a data science student, so I designed it to be simple, reproducible and ea
 
 Outputs are returned as structured JSON + a Markdown resume body.
 
-**Where do I put my resume?**
+**Where to put your resume?**
 
-* Easiest: just pass `--resume path/to/file.pdf|.docx|.txt`.
-* The script extracts text from PDF/DOCX/TXT (uses `pypdf` and `docx2txt`). If a PDF has columns, converting to `.docx` or copying into `.txt` gives cleaner text.
+* The script extracts text from PDF/DOCX/TXT. If a PDF has columns, converting to `.docx` or copying into `.txt` to givee a cleaner text.
 
 **Save outputs to files**
 

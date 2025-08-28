@@ -26,44 +26,18 @@ Outputs are returned as structured JSON + a Markdown resume body.
 
 **Where to put your resume?**
 
-* The script extracts text from PDF/DOCX/TXT. If a PDF has columns, converting to `.docx` or copying into `.txt` to givee a cleaner text.
+The script extracts text from PDF/DOCX/TXT. If a PDF has columns, converting to `.docx` or copying into `.txt` to givee a cleaner text.
 
-**Save outputs to files**
-
-* The script prints JSON + Markdown to stdout. I usually pipe the resume to a file:
-
-  ```bash
-  python mckinsey_interview_flow.py --resume My_Resume.pdf --job job.txt \
-    > run_out.json
-  # then copy the Markdown resume part into a file: resume_tailored.md
-  ```
-
----
-
-## Project structure
-
-```
-.
-├── mckinsey_interview_flow.py   # the flow + agents + CLI
-├── README.md                    # this file
-└── requirements.txt             # optional; versions as above
-```
-
----
-
-## How it works (under the hood)
+## How it works
 
 * **CrewAI Flows** chain steps with state. Each step calls an **Agent** with a clear role:
 
-  * *Job Researcher* → extracts normalized requirements.
-  * *Profile Analyst* → match & gap analysis.
-  * *Resume Strategist* → outline, keywords, and targeted rewrites.
-  * *Resume Writer* → ATS‑friendly Markdown resume.
-  * *Interview Coach* → talking points + STAR cues.
-* **Structured outputs** via Pydantic models so results are predictable.
+  * *Job Researcher* -> extracts normalized requirements.
+  * *Profile Analyst* -> matches and gap analysis.
+  * *Resume Strategist* -> outline, keywords and targeted rewrites.
+  * *Resume Writer* -> ATS‑friendly Markdown resume.
+  * *Interview Coach* -> talking points + STAR cues.
 * **LLM selection** is pluggable with LiteLLM; set `MODEL` and the right API key env var.
-
----
 
 ## Inputs & Outputs
 

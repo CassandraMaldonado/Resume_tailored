@@ -16,8 +16,8 @@ I’m a data science student, so I designed it to be simple, reproducible and ea
 
 **CrewAI Flow stages:**
 
-1. **Learn job requirements** -> parse a job description and normalize skills/responsibilities.
-2. **Match to my profile** -> rate coverage, surface gaps, propose quick wins.
+1. **Learn job requirements** -> parse a job description and normalize skills and responsibilities.
+2. **Match the job description to my profile** -> rate coverage, surface gaps and proposes quick wins.
 3. **Resume strategy** -> section order, keywords, bullets to rewrite.
 4. **Write tailored resume** -> ATS‑friendly Markdown output.
 5. **Interview prep** -> concise talking points + STAR stories I can actually say.

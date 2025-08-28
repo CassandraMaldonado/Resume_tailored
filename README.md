@@ -99,9 +99,3 @@ Other examples: `gemini/gemini-1.5-pro`, `groq/llama3-70b-8192`, `ollama/llama3`
 ## Disclaimer
 
 Not affiliated with McKinsey. This is a personal project to practice agentic workflows and speed up my own applications.
-
----
-
-## License
-
-MIT — feel free to fork/use.

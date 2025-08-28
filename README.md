@@ -94,8 +94,4 @@ Other examples: `gemini/gemini-1.5-pro`, `groq/llama3-70b-8192`, `ollama/llama3`
 
 **Private data?**  Your resume text is processed by whichever model you configure. For sensitive content, use a local model or a provider/company you trust.
 
----
 
-## Disclaimer
-
-Not affiliated with McKinsey. This is a personal project to practice agentic workflows and speed up my own applications.

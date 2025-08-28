@@ -54,44 +54,10 @@ The script extracts text from PDF/DOCX/TXT. If a PDF has columns, converting to 
 * `resume_markdown`: ATS-oriented resume in Markdown
 * `talking_points`: 4–8 bullets for recruiter screen + 2–3 STAR stories
 
----
-
-## Swap LLMs quickly
-
-```bash
-export MODEL="anthropic/claude-3-5-sonnet-20240620"
-export ANTHROPIC_API_KEY=...
-python mckinsey_interview_flow.py --resume ... --job ...
-```
-
-Other examples: `gemini/gemini-1.5-pro`, `groq/llama3-70b-8192`, `ollama/llama3` (if running locally). Temperature is set low for extraction steps and slightly higher for writing.
-
----
-
 ## Notes on ATS + tone
 
 * The resume writer keeps formatting simple: section headers, bullets, and clean keyword placement. You can paste the Markdown into your own template.
 * I keep bullets concrete: numbers, scope, stacks, and outcomes.
 * Talking points read like how I’d speak in a 15‑minute screen.
 
----
-
-## Roadmap (things I might add later)
-
-* Cover letter auto‑draft from the same outline
-* A small STAR story library I can reuse
-* LinkedIn scraping tool (for company/team context)
-* Metric verifier (light heuristics to sanity check numbers)
-* Export to PDF/Docx automatically
-
----
-
-## FAQ
-
-**Is this only for McKinsey?**  No — works for any posting. I just used a consulting‑style prompt style because it forces clear requirements → evidence mapping.
-
-**Does it replace editing?**  No. It drafts fast; I still do a 5‑minute polish.
-
-**Private data?**  Your resume text is processed by whichever model you configure. For sensitive content, use a local model or a provider/company you trust.
-
-
+--

@@ -45,12 +45,12 @@ The script extracts text from PDF/DOCX/TXT. If a PDF has columns, converting to 
 
 * Resume path in PDF/DOCX/TXT.
 
-**Outputs (JSON keys)**
+**Outputs**
 
-* `requirements`: normalized skills/responsibilities/keywords
-* `match_report`: coverage scores, gaps, suggested positioning
-* `resume_outline`: section order, keywords, bullets to rewrite
-* `resume_markdown`: ATS-oriented resume in Markdown
+* `requirements`: normalizes skills, responsibilities and keywords.
+* `match_report`: cover scores, gaps and suggested positioning.
+* `resume_outline`: section order, keywords, bullets to rewrite.
+* `resume_markdown`: ATS-oriented resume in Markdown.
 * `talking_points`: 4–8 bullets for recruiter screen + 2–3 STAR stories
 
 ## Notes on ATS + tone

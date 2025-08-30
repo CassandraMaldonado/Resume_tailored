@@ -43,8 +43,7 @@ The script extracts text from PDF/DOCX/TXT. If a PDF has columns, converting to 
 
 **Inputs**
 
-* `--resume` path to PDF/DOCX/TXT (required)
-* One of: `--job path/to/txt` or `--job-text "...full JD..."`
+* Resume path in PDF/DOCX/TXT.
 
 **Outputs (JSON keys)**
 

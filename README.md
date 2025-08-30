@@ -52,9 +52,3 @@ The script extracts text from PDF/DOCX/TXT. If a PDF has columns, converting to 
 * `resume_outline`: section order, keywords, bullets to rewrite.
 * `resume_markdown`: ATS-oriented resume in Markdown.
 * `talking_points`: 4–8 bullets for recruiter screen and 2–3 STAR stories for the first interview.
-
-## Notes on ATS + tone
-
-* The resume writer keeps formatting simple: section headers, bullets, and clean keyword placement. You can paste the Markdown into your own template.
-* I keep bullets concrete: numbers, scope, stacks, and outcomes.
-* Talking points read like how I’d speak in a 15‑minute screen.

@@ -59,5 +59,3 @@ The script extracts text from PDF/DOCX/TXT. If a PDF has columns, converting to 
 * The resume writer keeps formatting simple: section headers, bullets, and clean keyword placement. You can paste the Markdown into your own template.
 * I keep bullets concrete: numbers, scope, stacks, and outcomes.
 * Talking points read like how I’d speak in a 15‑minute screen.
-
---
